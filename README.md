@@ -18,3 +18,24 @@ A PHP-based document processing and financial tracking system that streamlines i
         Level 1: User – Uploads files (invoices, TCS, expenses)
         Level 2: Team Manager – Views and approves team documents
         Level 3: Admin/Finance Head – Accesses global dashboard with profitability insights
+
+🧠 How It Works
+Upload
+    Users upload financial documents (CSV/XLSX)
+Approval Workflow
+    Managers review and approve their team's uploads
+Processing
+    Data is parsed, validated, and stored
+Categorization
+    Clients are marked as Paid, Pending, or Overdue
+Dashboard & Reports
+    Admins get a high-level dashboard showing:
+        Profit/loss per product
+        Outstanding invoices
+        Payment timelines
+Emails
+    Periodic summaries are auto-sent to preconfigured addresses
+
+⚠️ Notice
+This is a legacy PHP version created as a demo prototype.
+The live server it was connected to has been decommissioned, and parts of the system (file paths, APIs, cron jobs) are now non-functional.
